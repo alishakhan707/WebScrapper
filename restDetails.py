@@ -135,7 +135,7 @@ def Selenium_extractor():
 
 print("Enter the link of the page")
 base_url = "https://www.google.com/search?tbs=lf:1,lf_ui:9&tbm=lcl&q=restaurants+"
-location_list = ['ampang', 'ayer baloi']
+location_list = ['Bekok']
 for val in location_list:
     link = base_url + val
     print(link)
